@@ -32,7 +32,28 @@
           final +='Stable tag: 4.3';
           final +='License: GPLv2 or later';
           final +='License URI: http://www.gnu.org/licenses/gpl-2.0.html\n';
-          final +='Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.';
+          final +='Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.\n\n';
+          final +='== Description ==\n\n';
+          final +='This is the long description.  No limit\\n';
+          final +='== Installation ==\n\n';
+          final += 'Instalation instructions here...\n\n';
+          final += '= A question that someone might have =\n\n';
+          final += 'An answer to that question.\n\n';
+          final += '== Screenshots ==\n\n';
+          final += '1. screenshot-1.png description';
+          final += '2. screenshot-2.png description';
+          final += '3. screenshot-3.png description';
+          final += '';
+          final += '';
+          final += '';
+          final += '';
+          final += '';
+          final += '';
+          final += '';
+          final += '';
+          final += '';
+
+
            console.log(final);
 
            var fileName = pName.replace(new RegExp(' ', 'g'), '-').toLowerCase();//'Your-plugin-name';//$scope.pName.replace(' ','-');
